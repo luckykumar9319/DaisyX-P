@@ -101,7 +101,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Devil](t.me/lucifeermorningstar),[DaisyX](t.me/DaisyXNews),"""
+Support them  [Anshu](t.me/Anshu_Priy),[J.A.R.V.I.S. Support](https://t.me/joinchat/zbMOX9E4vXBhNmNl),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -361,7 +361,7 @@ def DaisyX_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by TeamDaisyXDevs.* "
-            f"\n\n 🔥 Join [J.A.R.V.I.S Support](https://t.me/DaisyXNews) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [J.A.R.V.I.S Support](https://t.me/joinchat/zbMOX9E4vXBhNmNl) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/ab149cdc94ae83d1d05d5.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
@@ -419,7 +419,7 @@ def DaisyX_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Daisy](https://github.com/TEAMDAISYXDEVS) + [Daisy X](https://t.me/DaisyXNews)."
+            f"\n\nBased on [Daisy](https://github.com/TEAMDAISYXDEVS) + [J.A.R.V.I.S.](https://t.me/joinchat/zbMOX9E4vXBhNmNl)."
             f"\n\n{dispatcher.bot.first_name}'s source code was written by ScamRand and DEVELOPER"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
@@ -482,7 +482,7 @@ def DaisyX_about_callback(update, context):
             f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of DaisyXBot we are not resposible for anything."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of J.A.R.V.I.S. we are not resposible for anything."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
