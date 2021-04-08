@@ -308,7 +308,7 @@ def info(update: Update, context: CallbackContext):
 
     if disaster_level_present:
 
-        text += ' [<a href="https://t.me/SuzuyaUpdates/55">?</a>]'.format(bot.username)
+        text += ' [<a href="https://t.me/jarvisrobot_support">?</a>]'.format(bot.username)
 
     try:
         user_member = chat.get_member(user.id)
@@ -547,8 +547,8 @@ Examples:
 *Overall Information about you:*
  • `/info`*:* get information about a user. 
  
-*What is that health thingy?*
- Come and see [HP System explained](https://t.me/OnePunchUpdates/192)
+*What is that health Bar ?*
+ Come and see what is [Health Bar](https://t.me/jarvisrobot_support/51)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
