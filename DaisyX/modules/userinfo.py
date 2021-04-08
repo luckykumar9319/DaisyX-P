@@ -548,7 +548,7 @@ Examples:
  • `/info`*:* get information about a user. 
  
 *What is that health Bar ?*
- Come and see what is [Health Bar](https://t.me/jarvisrobot_support/51)
+ Come and see what is [Health Bar ?](https://t.me/jarvisrobot_support/51)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
