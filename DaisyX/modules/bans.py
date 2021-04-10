@@ -413,7 +413,7 @@ def kick(update: Update, context: CallbackContext) -> str:
         # bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
         bot.sendMessage(
             chat.id,
-            f"Ofcourse {mention_html(member.user.id, html.escape(member.user.first_name))} has been kicked out from this group.",
+            f"I've kicked {mention_html(member.user.id, html.escape(member.user.first_name))} from this group.",
             parse_mode=ParseMode.HTML,
         )
         log = (
