@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [J.A.R.V.I.S.](https://telegra.ph/file/ab149cdc94ae83d1d05d5.jpg)
+Hello there, I'm [Ary](https://telegra.ph/file/4bf83f6380bb33896c937.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
@@ -79,14 +79,14 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add J.A.R.V.I.S. to your group 💫", url="t.me/jarvisbest_robot?startgroup=true"
+            text="💫 Add Ary to your group 💫", url="t.me/jarvisbest_robot?startgroup=true"
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [J.A.R.V.I.S.](https://telegra.ph/file/ab149cdc94ae83d1d05d5.jpg)
+*Main Commands :* [Ary](https://telegra.ph/file/4bf83f6380bb33896c937.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
